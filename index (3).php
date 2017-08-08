@@ -14,8 +14,8 @@ Aides developer
 Channel = @super_api
 */
 ob_start();
-$API_KEY = '367578574:AAEsdZuGqUR87wfg4de7CCK462zYcMPBq2s'; //add your bot token
-$bot_ = "apilinkrembot";
+$API_KEY = '271081509:AAGGrPqsEAeiGQHPHj-J9MYYSRIvOhS2rT8'; //add your bot token
+$bot_ = "ReloadHelperBot";
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -225,13 +225,13 @@ Select would you want 👁‍🗨",
      ['text'=>"اضافه کردن من به گروه ♣️", 'url'=>"https://telegram.me/$bot_?startgroup=start"]
      ],
     	[
-     ['text'=>"😎سازنده", 'url'=>"t.me/hardboy_021"]
+     ['text'=>"😎سازنده", 'url'=>"t.me/Reload"]
      ],
 	   [
   		['text'=>"🇦🇺 English 🇦🇺",'callback_data'=>"super_"]
  	  ],
 	   [
-    ['text'=>"کانال ما📢️️", 'url'=>"https://telegram.me/four4team"]
+    ['text'=>"کانال ما📢️️", 'url'=>"https://telegram.me/"]
     ],
      [
      ['text'=>"🗣ربات پشتیبانی", 'url'=>"t.me/mrpvbot"]
